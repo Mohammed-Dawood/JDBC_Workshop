@@ -159,7 +159,6 @@ public class App {
                     }
                     break;
 
-
                 case 7:
                     // Delete a City
                     System.out.print("Enter City ID to delete: ");
