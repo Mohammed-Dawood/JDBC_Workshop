@@ -6,9 +6,9 @@ import java.sql.DriverManager;
 
 public class GetConnection {
 
-    private static final String URL = "jdbc:mysql://localhost:3306/JDBC_Workshop";
-    private static final String USER = "root"; // or your MySQL username
-    private static final String PASSWORD = "password"; // or your MySQL password
+    private static final String URL = "jdbc:mysql://localhost:3306/world";
+    private static final String USER = "root";
+    private static final String PASSWORD = "1234567890";
 
     public static Connection getConnection() {
         Connection connection = null;
